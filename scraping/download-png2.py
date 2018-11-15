@@ -1,5 +1,4 @@
 '''
-
 방식 : GET
 대상 : https://search.naver.com
 추가적인 정보
@@ -9,7 +8,6 @@
         fbm=0
         ie=utf8
         query=초콜릿
-
 '''
 
 import urllib.request
@@ -29,9 +27,8 @@ url = api + params
 
 data = urllib.request.urlopen(url).read() # Naver got blocked requests from non-browser
 
-print(data) # expectation result is binary data
+print(data) # expected result is binary data
 
 text = data.decode('utf-8')
 
-print(text) # expectation result is encoded data via utf-8 
-
+print(text) # expected result is encoded data via utf-8 

@@ -21,4 +21,4 @@ browser.get(url) # Get URL
 
 browser.save_screenshot("./download/Webstie.png") # Take and save a screenshot
 
-browser.quit() # Quirt browser
+browser.quit() # Quit browser

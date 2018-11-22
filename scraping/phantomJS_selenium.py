@@ -6,7 +6,6 @@ Delvelopment environment
     * Beautifulsoup4
     * Libfontconfig
     * fonts-nanum*
-
 '''
 
 from selenium import webdriver
@@ -19,6 +18,6 @@ browser.implicitly_wait(3) # Wait for three second
 
 browser.get(url) # Get URL
 
-browser.save_screenshot("./download/Webstie.png") # Take and save a screenshot
+browser.save_screenshot("./download/Website.png") # Take and save a screenshot
 
 browser.quit() # Quit browser

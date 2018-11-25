@@ -1,5 +1,5 @@
 '''
-Delvelopment environment
+Delvelopment environment 
  - Ubuntu with below packages
     * Selenium
     * PhantomJS
